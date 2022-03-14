@@ -1,35 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - print double digit combos
+ * main - print the letters of the alphabet
  *
- * Description: print double digit combos
+ * Description: print the letters of the alphabet
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i, j;
+	int i = 97;
 
-	i = 48;
-	j = 48;
-
-	while (i < 58)
+	while (i < 123)
 	{
-		j = i + 1;
-		while (j < 58)
-		{
-			putchar(i);
-			putchar(j);
-
-			if (i < 56 || j < 57)
-			{
-				putchar(44);
-				putchar(32);
-			}
-			j++;
-		}
-
+		putchar(i);
 		i++;
 	}
+	putchar(10);
+
+	return (0);
+}
