@@ -14,7 +14,3 @@ int factorial(int n)
 	else
 		return (n * factorial(n - 1));
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-
