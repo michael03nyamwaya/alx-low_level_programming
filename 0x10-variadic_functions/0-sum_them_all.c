@@ -1,6 +1,6 @@
 /*
  *  File: 0-sum_them_all.c
- *  Auth: Michael03nyamwaya
+ *  Auth: Michael nyamwaya
  */
 #include "variadic_functions.h"
 #include <stdarg.h>
